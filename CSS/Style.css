@@ -1,0 +1,861 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    color: black;
+    padding: 10px;
+    width: 100%;
+}
+
+.navcontainerleft img{
+    width: 12%;
+    position: absolute;
+    right: 83%;
+    bottom: 80%;
+}
+.navcontainermiddle  .home, .daily, .prod, .sup, .ref{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    color: black;
+    position: relative;
+    right: -28%;
+    bottom: -55px;
+}
+.navcontainerright{
+    position: absolute;
+    right: 13%;
+    bottom: 601px ;
+}
+.navcontainerright i{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.navcontainerright input{
+    border-radius: 30px;
+    outline: none;
+    width: 200px;
+    height: 30px;
+}
+.navcontainerimage{
+    position: absolute;
+    right: 5%;
+    bottom: 600px;
+}
+.navcontainercenter{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 70%;
+    right: 65%;
+    
+}
+.navcontainercash{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 70%;
+    right: 45%;
+    
+}
+.navcontainerfree{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 70%;
+    right: 22%;
+   
+}
+.navcontainerbanner{
+    position: absolute;
+    bottom: -110px;
+}
+.wrap .navcontainerbox{
+    width: 100%;
+    /* display: flex;
+    justify-content: space-around; */
+    flex-wrap: wrap;
+}
+/* .wrap .navcontainerbox img{
+    width: 40%;
+} */
+.navcontainerbox .audio{
+    position: absolute;
+    bottom: -520px;
+}
+ .navcontainerbox .life{
+    position: absolute;
+    bottom: -520px;
+    right: -24px;
+ }   
+ .navcontainerbox .power{
+    position: absolute;
+    bottom: -930px;
+ }
+.navcontainerbox .wear{
+    position: absolute;
+    bottom: -930px;
+    right: -24px;
+}
+.pic1{
+    position: absolute;
+    bottom: -220px;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.pic2{
+    position: absolute;
+    bottom: -220px;
+    right: 500px;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.pic3{
+    position: absolute;
+    bottom: -620px;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.pic4{
+    position: absolute;
+    bottom: -620px;
+    right: 480px;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+/* .navcontain{
+    background-color: grey;
+    padding: 10px;
+    position: relative;
+} */
+
+.navcontain.tunde{
+    background-color: red;
+}
+
+.navcontainerend p{
+    font-size: 25px;
+    font-weight: 800;
+    font-style: normal;
+    position: absolute;
+    bottom: -990px;
+    right: 600px;
+}
+
+.navcontainerend .p2{
+    position: absolute;
+    bottom: -1048px;
+    right: 665px;
+    font-size: 18px;
+}
+
+.navcontainerimages .pics1{
+    position: absolute;
+    bottom: -1330px;  
+}
+.navcontainerimages .pic1p{
+    position: absolute;
+    bottom: -1400px; 
+    right: 1100px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainerimages .pics2{
+    position: absolute;
+    bottom: -1462px; 
+    right: 1260px;
+}
+.navcontainerimages .pic2p{
+    position: absolute;
+    bottom: -1428px; 
+    right: 1160px;
+}
+.navcontainerimages .want{
+    position: absolute;
+    bottom: -1460px; 
+    right: 1230px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+
+.navcontainerimg2 .ada{
+    position: absolute;
+    bottom: -1330px;  
+    right: 740px;
+}
+.navcontainerimg2 .adam{
+    position: absolute;
+    bottom: -1400px; 
+    right: 700px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainerimg2 .adan{
+    position: absolute;
+    bottom: -1462px; 
+    right: 860px;
+}
+.navcontainerimg2 .adama{
+    position: absolute;
+    bottom: -1428px; 
+    right: 767px;
+}
+.navcontainerimg2 .need{
+    position: absolute;
+    bottom: -1460px; 
+    right: 840px;
+    font-size:20px ;
+    font-weight: bolder; 
+}
+.navcontainerimg3 .sar{
+    position: absolute;
+    bottom: -1330px;  
+    right: 360px;
+}
+.navcontainerimg3 .sara{
+    position: absolute;
+    bottom: -1400px; 
+    right: 350px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainerimg3 .sarah{
+    position: absolute;
+    bottom: -1462px; 
+    right: 490px;
+}
+.navcontainerimg3 .sa{
+    position: absolute;
+    bottom: -1428px; 
+    right: 390px;
+}
+.navcontainerimg3 .wan{
+    position: absolute;
+    bottom: -1460px; 
+    right: 460px;
+    font-size:20px ;
+    font-weight: bolder; 
+}
+.navcontainerimg4 .vic{
+    position: absolute;
+    bottom: -1330px;  
+    right: 40px;
+}
+.navcontainerimg4 .vict{
+    position: absolute;
+    bottom: -1400px; 
+    right: 30px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainerimg4 .victo{
+    position: absolute;
+    bottom: -1462px; 
+    right: 150px;
+}
+.navcontainerimg4 .victor{
+    position: absolute;
+    bottom: -1425px; 
+    right: 70px;
+}
+.navcontainerimg4 .victory{
+    position: absolute;
+    bottom: -1460px; 
+    right: 140px;
+    font-size:20px ;
+    font-weight: bolder; 
+}
+.navcontainernew .newp{
+    position: absolute;
+    bottom: -1500px;
+    font-size: 30px;
+    font-weight: 700;
+    right: 600px;
+}
+.navcontainernew .newa{
+    position: absolute;
+    bottom: -1540px;
+    right: 550px;
+}
+.navcontainerroll .dyn{
+    position: absolute;
+    bottom: -1810px; 
+}
+.navcontainerroll .ami{
+    position: absolute;
+    bottom: -1860px; 
+    right: 1100px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainerroll .ear{
+    position: absolute;
+    bottom: -1923px; 
+    right: 1260px;
+}
+.navcontainerroll .buds{
+    position: absolute;
+    bottom: -1889px; 
+    right: 1160px;
+}
+.navcontainerroll .mic{
+    position: absolute;
+    bottom: -1925px; 
+    right: 1230px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer2 .tunde{
+    position: absolute;
+    bottom: -1800px;  
+    right: 740px;
+}
+.navcontainer2 .tun{
+    position: absolute;
+    bottom: -1860px; 
+    right: 700px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer2 .bel{
+    position: absolute;
+    bottom: -1924px; 
+    right: 860px;
+}
+.navcontainer2 .les{
+    position: absolute;
+    bottom: -1890px; 
+    right: 760px;
+}
+.navcontainer2 .ing{
+    position: absolute;
+    bottom: -1925px; 
+    right: 840px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer3 .wale{
+    position: absolute;
+    bottom: -1799px;  
+    right: 360px;
+}
+.navcontainer3 .wal{
+    position: absolute;
+    bottom: -1860px; 
+    right: 350px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer3 .ade{
+    position: absolute;
+    bottom: -1924px; 
+    right: 508px;
+}
+.navcontainer3 .ase{
+    position: absolute;
+    bottom: -1889px; 
+    right: 407px;
+}
+.navcontainer3 .ire{
+    position: absolute;
+    bottom: -1924px; 
+    right: 460px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer4 .bode{
+    position: absolute;
+    bottom: -1810px;  
+    right: 40px;
+}
+.navcontainer4 .bod{
+    position: absolute;
+    bottom: -1860px; 
+    right: 30px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer4 .leg{
+    position: absolute;
+    bottom: -1923px; 
+    right: 200px;
+}
+.navcontainer4 .had{
+    position: absolute;
+    bottom: -1888px; 
+    right: 107px;
+}
+.navcontainer4 .hid{
+    position: absolute;
+    bottom: -1923px; 
+    right: 140px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer5 .fill{
+    position: absolute;
+    bottom: -2200px; 
+}
+.navcontainer5 .fin{
+    position: absolute;
+    bottom: -2270px; 
+    right: 1100px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer5 .lip{
+    position: absolute;
+    bottom: -2335px; 
+    right: 1260px;
+}
+.navcontainer5 .fed{
+    position: absolute;
+    bottom: -2300px; 
+    right: 1160px;
+}
+.navcontainer5 .fell{
+    position: absolute;
+    bottom: -2337px; 
+    right: 1235px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer6 .car{
+    position: absolute;
+    bottom: -2210px;  
+    right: 740px;
+}
+.navcontainer6 .her{
+    position: absolute;
+    bottom: -2270px; 
+    right: 700px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer6 .art{
+    position: absolute;
+    bottom: -2335px; 
+    right: 860px;
+}
+.navcontainer6 .well{
+    position: absolute;
+    bottom: -2299px; 
+    right: 760px;
+}
+.navcontainer6 .med{
+    position: absolute;
+    bottom: -2336px; 
+    right: 840px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer7 .pep{
+    position: absolute;
+    bottom: -2200px;  
+    right: 360px;
+}
+.navcontainer7 .pop{
+    position: absolute;
+    bottom: -2269px; 
+    right: 350px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer7 .pip{
+    position: absolute;
+    bottom: -2333px; 
+    right: 508px;
+}
+.navcontainer7 .per{
+    position: absolute;
+    bottom: -2298px; 
+    right: 428px;
+}
+.navcontainer7 .ped{
+    position: absolute;
+    bottom: -2335px; 
+    right: 460px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer8  .lov{
+    position: absolute;
+    bottom: -2240px;  
+    right: 40px;
+}
+.navcontainer8 .love{
+    position: absolute;
+    bottom: -2266px; 
+    right: 30px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer8 .mind{
+    position: absolute;
+    bottom: -2334px; 
+    right: 190px;
+}
+.navcontainer8 .bone{
+    position: absolute;
+    bottom: -2300px; 
+    right: 90px;
+}
+.navcontainer8 .look{
+    position: absolute;
+    bottom: -2335px; 
+    right: 140px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer9 .live{
+    position: absolute;
+    bottom: -2630px; 
+}
+.navcontainer9 .dan{
+    position: absolute;
+    bottom: -2660px; 
+    right: 1189px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer9 .mine{
+    position: absolute;
+    bottom: -2720px; 
+    right: 1300px;
+}
+.navcontainer9 .eye{
+    position: absolute;
+    bottom: -2686px; 
+    right: 1209px;
+}
+.navcontainer9 .sim{
+    position: absolute;
+    bottom: -2725px; 
+    right: 1280px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer10 .sit{
+    position: absolute;
+    bottom: -2630px;  
+    right: 740px;
+}
+.navcontainer10 .non{
+    position: absolute;
+    bottom: -2660px; 
+    right: 700px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer10 .wid{
+    position: absolute;
+    bottom: -2720px; 
+    right: 860px;
+}
+.navcontainer10 .why{
+    position: absolute;
+    bottom: -2685px; 
+    right: 765px;
+}
+.navcontainer10 .feel{
+    position: absolute;
+    bottom: -2725px; 
+    right: 840px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer11 .did{
+    position: absolute;
+    bottom: -2620px;  
+    right: 360px;
+}
+.navcontainer11 .log{
+    position: absolute;
+    bottom: -2660px; 
+    right: 350px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer11 .can{
+    position: absolute;
+    bottom: -2722px; 
+    right: 508px;
+}
+.navcontainer11 .nam{
+    position: absolute;
+    bottom: -2688px; 
+    right: 410px;
+}
+.navcontainer11 .vid{
+    position: absolute;
+    bottom: -2725px; 
+    right: 460px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer12 .bac{
+    position: absolute;
+    bottom: -2620px;  
+    right: 40px;
+}
+.navcontainer12 .wod{
+    position: absolute;
+    bottom: -2660px; 
+    right: 30px;
+    font-weight: 600; 
+    font-size: 17px;
+}
+.navcontainer12 .cad{
+    position: absolute;
+    bottom: -2720px; 
+    right: 190px;
+}
+.navcontainer12 .nan{
+    position: absolute;
+    bottom: -2685px; 
+    right: 99px;
+}
+.navcontainer12 .vix{
+    position: absolute;
+    bottom: -2724px; 
+    right: 140px;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.navcontainer1{
+    background-color: rgb(50, 50, 50);
+    padding: 11%;
+    position: relative;
+    bottom: -3400px;
+}
+.navcontainer1 .nay{
+    color: chartreuse;
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+}
+.navcontainer1 .nav{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 120px;
+}
+.navcontainer1 .bas{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 160px;
+}
+.navcontainer1 .cus{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 200px;
+}
+.navcontainer1 .iya{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 240px;
+}
+.navcontainer1 .nayi{
+    color: chartreuse;
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+    right: 500px;
+}
+.navcontainer1 .navi{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 120px;
+    right: 620px;
+}
+.navcontainer1 .navd{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 160px;
+    right: 600px;
+}
+.navcontainer1 .navg{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 200px;
+    right: 603px; 
+}
+.navcontainer1 .navm{
+    color: chartreuse;
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+    right: 330px
+}
+.navcontainer1 .navw{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 120px;
+    right: 350px;
+}
+.navcontainer1 .navo{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 155px;
+    right: 285px;
+}
+.navcontainer1 .navr{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 190px;
+    right: 240px;
+}
+.navcontainer1 .navt{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 229px;
+    right: 265px;
+}
+.navcontainer1 .navp{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 268px;
+    right: 305px;
+}
+.navcontainer1 .navh{
+    color: chartreuse;
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+    right: 90px
+}
+.navcontainer1 .navv{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 120px;
+    right: 110px;
+}
+.navcontainer1 .navy{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 160px;
+    right: 78px;
+}
+.navcontainer1 .navu{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 200px;
+    right: 122px;
+}
+.navcontainerending{
+    background-color: rgb(0,0,0);
+    padding: 6%;
+    position: relative;
+    bottom: -3400px;
+}
+.navcontainerending .navs{
+    position: absolute;
+    top: 39px;
+    right: 650px;
+}
+.navcontainerending i{
+    color: white;
+    position: absolute;
+    right: 890px;
+    bottom: 35px;
+}
+.navcontainerending .nav20{
+    color: white;
+    position: absolute;
+    right: 500px;
+    bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width:850px){
+    .header {
+        width: 100%;
+       text-align: center;
+       
+    }
+}
+
+
+@media only screen and (max-width:750px){
+    .header {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width:650px){
+    .header {
+        width: 100%;
+        text-align: center;
+        background-color: black;
+
+        
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
